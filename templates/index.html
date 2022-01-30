@@ -1,0 +1,9 @@
+{% if data.country_code and data.coordinate and data.temp and data.pressure and data.humidity %}
+    country code : {{data.country_code}}
+    City name : {{data.cityname}}
+    coordinate : {{data.coordinate}}
+    temp (in kelvin) : {{data.temp}}
+    temp (in celcius) : {{data.temp_cel}}
+    pressure : {{data.pressure}}
+    humidity : {{data.humidity}}
+{% endif %}
