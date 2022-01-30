@@ -1,1 +1,1 @@
-# weather-cli
+# weather-api-python
